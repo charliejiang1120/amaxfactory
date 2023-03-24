@@ -22,8 +22,7 @@ except:
     pass
 
 def readme():
-    with open('README.rst') as f:
-        return f.read()
+    return "factory"
 
 def data_files_item(directory):
     '''Given a directory, return tuple the directory, its files.
